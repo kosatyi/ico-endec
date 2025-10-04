@@ -1,7 +1,7 @@
 {
   "name": "@kosatyi/ico-endec",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "ICO encoder and decoder library",
   "main": "dist/cjs/bundle.js",
   "module": "dist/esm/bundle.js",
