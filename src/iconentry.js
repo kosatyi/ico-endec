@@ -1,4 +1,4 @@
-class IconEntry {
+export class IconEntry {
   constructor() {
     this._width = -1
     this._height = -1
@@ -47,4 +47,4 @@ class IconEntry {
   }
 }
 
-export default IconEntry
+

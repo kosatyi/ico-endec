@@ -2,7 +2,7 @@
  * Encoder provides a method to encode PNG images into an ICO file. BMP images
  * do not work as masking is not implemented.
  */
-class Encoder {
+export class Encoder {
   /**
    * 
    * @param {[Buffer]} imageBuffers An array of image buffers containing images.
@@ -167,5 +167,3 @@ class Encoder {
     }
   }
 }
-
-export default Encoder

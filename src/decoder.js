@@ -1,11 +1,11 @@
-import IconEntry from './iconentry'
+import {IconEntry} from './iconentry'
 
 /**
  * Decoder provides a method to decode ICO files into an object structure
  * containing image data. PNGs are fully supported but BMPs are extracted
  * without the use of their mask.
  */
-class Decoder {
+export class Decoder {
   /**
    * @param {Buffer} buffer A Buffer containing the contents of an ICO file
    */
