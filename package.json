@@ -13,7 +13,10 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "install": "rollup -c"
+    "watch": "rollup -c -w",
+    "version": "npm run build",
+    "prepublishOnly": "npm i && rollup -c",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [],
   "author": "Ketchetwahmeegwun T. Southall",
